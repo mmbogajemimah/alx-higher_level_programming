@@ -2,7 +2,7 @@
 def uppercase(str):
     new_string =""
     for i in range(len(str)):
-        if str[i] >= 'a' and str[i] <= 'z':
+        if (ord(str[i]) >= 97 and ord(str[i]) <= 122):
             new_string = new_string + chr((ord(str[i]) - 32))
             continue
         else:
