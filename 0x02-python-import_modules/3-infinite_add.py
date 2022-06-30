@@ -5,7 +5,8 @@ if __name__ == "__main__":
 
     length = len(sys.argv)
     sum = 0
-    
-    for i in range(1, length):
-        sum += int(sys.argv[i])
+
+    if length > 1:
+        for i in range(1, length):
+            sum += int(sys.argv[i])
     print(sum)
