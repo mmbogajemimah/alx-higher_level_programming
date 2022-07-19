@@ -3,6 +3,7 @@
 module documentation
 """
 
+
 class Square():
     """
     An empty Square class
