@@ -8,7 +8,7 @@ BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
     """
-    Defination of calss rectangle that inherits 
+    Defination of calss rectangle that inherits
     from class BaseGeometry
     """
 
