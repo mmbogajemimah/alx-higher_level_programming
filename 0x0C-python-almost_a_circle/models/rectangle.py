@@ -107,13 +107,14 @@ class Rectangle(Base):
         Displays the stdout of the rectangle instance with
         the character #
         """
-        if self.__height > 0 and self.__width > 0:
-            for i in range(self.__height):
-                for j in range(self.__width):
-                    print("#", end="")
-                print()
-        else:
-            print()
+        if self.__y > 0:
+            print('\n' * self.__y, end='')
+
+        for i in range(self.height):
+            if self.__x > 0:
+                print(' ' * self.__x, end='')
+
+            print('#' * self.__width)
 
     def __str__(self):
         """
