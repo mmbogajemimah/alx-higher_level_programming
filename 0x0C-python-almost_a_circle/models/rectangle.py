@@ -5,6 +5,7 @@ Rectangle module
 
 from models.base import Base
 
+
 class Rectangle(Base):
     """
     class Rectangle that inherits from Base
@@ -109,7 +110,7 @@ class Rectangle(Base):
         if self.__height > 0 and self.__width > 0:
             for i in range(self.__height):
                 for j in range(self.__width):
-                    print("#", end = "")
+                    print("#", end="")
                 print()
         else:
             print()
