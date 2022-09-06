@@ -1,2 +1,2 @@
 -- Describe MySQL
-SHOW CREATE TABLE FROM `first_table`;
+SHOW CREATE TABLE first_table;
