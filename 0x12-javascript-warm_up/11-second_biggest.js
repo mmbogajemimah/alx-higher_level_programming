@@ -8,6 +8,7 @@ if (lengthNums === 2 || lengthNums === 3) {
   for (let i = 2; i < lengthNums; i++) {
     arrayNums.push(process.argv[i]);
   }
-  arrayNums.sort().reverse();
+  arrayNums.sort();
+  arrayNums.reverse();
   console.log(arrayNums[1]);
 }
