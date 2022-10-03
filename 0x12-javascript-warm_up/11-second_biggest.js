@@ -8,7 +8,6 @@ if ((lengthNums === 2) || (lengthNums === 3)) {
   for (let i = 2; i < lengthNums; i++) {
     arrayNums.push(process.argv[i]);
   }
-  const maximum = Math.max(...arrayNums);
-  arrayNums.splice(arrayNums.indexOf(maximum), 1);
-  console.log(Math.max(...arrayNums));
+  arrayNums.sort().reverse();
+  console.log(arrayNums[1]);
 }
