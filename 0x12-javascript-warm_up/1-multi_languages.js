@@ -1,8 +1,8 @@
 #!/usr/bin/node
 
-let myVarOne = 'C is fun';
-let myVarTwo = 'Python is cool';
-let myVarThree = 'JavaScript is amazing';
+const myVarOne = 'C is fun';
+const myVarTwo = 'Python is cool';
+const myVarThree = 'JavaScript is amazing';
 
 console.log(myVarOne);
 console.log(myVarTwo);
